@@ -27,14 +27,14 @@ const TopperSection = () => {
         </div>
       </div>
       <div className="text-sm md:flex gap-4 my-4 md:justify-between px-2 md:px-5">
-        <button>Tools</button>
-        <button>AWS Builder</button>
-        <button>Star Build</button>
-        <button>Build Supplies</button>
-        <button>Tooling</button>
-        <button>BlueHosting</button>
+        <button className="bg-white rounded-xl px-4 py-3">Tools</button>
+        <button className="bg-white rounded-xl px-4 py-3">AWS Builder</button>
+        <button className="bg-white rounded-xl px-4 py-3">Star Build</button>
+        <button className="bg-white rounded-xl px-4 py-3">Build Supplies</button>
+        <button className="bg-white rounded-xl px-4 py-3">Tooling</button>
+        <button className="bg-white rounded-xl px-4 py-3">BlueHosting</button>
       </div>
-      <div className="flex gap-4">
+      <div className="md:flex md:gap-4">
         <h3>Hosting 1</h3>
        <MdArrowRight className="text-2xl text-gray-500"></MdArrowRight>
         <h3>Hosting 2</h3>
