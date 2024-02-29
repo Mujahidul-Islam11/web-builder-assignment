@@ -7,7 +7,7 @@ import {
 
 const TopperSection = () => {
   return (
-    <div className="my-10">
+    <div className="my-10 px-6">
       <h1 className="text-3xl md:text-5xl text-[#2C384A]">
         Best Website builders in the US
       </h1>
@@ -35,16 +35,25 @@ const TopperSection = () => {
         <button className="bg-white rounded-xl px-4 py-3">BlueHosting</button>
       </div>
       <div className="md:flex md:gap-4">
+        <div className="flex gap-3">
         <h3>Hosting 1</h3>
        <MdArrowRight className="text-2xl text-gray-500"></MdArrowRight>
+        </div>
+        <div className="flex gap-3">
         <h3>Hosting 2</h3>
        <MdArrowRight className="text-2xl text-gray-500"></MdArrowRight>
+        </div>
+        <div className="flex gap-3">
         <h3>Hosting 3</h3>
        <MdArrowRight className="text-2xl text-gray-500"></MdArrowRight>
+        </div>
+        <div className="flex gap-3">
         <h3>Hosting 4</h3>
        <MdArrowRight className="text-2xl text-gray-500"></MdArrowRight>
-        <h3>Hosting 5</h3>
-       <MdArrowRight className="text-2xl text-gray-500"></MdArrowRight>
+        </div>
+        <div className="flex gap-3">
+        <h3>Hosting 4</h3>
+        </div>
        
       </div>
     </div>

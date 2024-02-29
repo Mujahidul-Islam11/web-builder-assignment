@@ -133,7 +133,7 @@ const Cards = () => {
             </button>
           </div>
           {/* Element Three */}
-          <div className="">
+          <div className="items-center">
             <div className="text-[#074786] mx-auto px-4 py-2 rounded-b-lg bg-[#F3F9FF] inline-block items-center text-center">
               <h2 className="text-4xl mb-4">9.8</h2>
               <h2 className="mb-2">Exceptional</h2>
