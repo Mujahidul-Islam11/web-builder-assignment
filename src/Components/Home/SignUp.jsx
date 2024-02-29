@@ -1,7 +1,7 @@
 const SignUp = () => {
   return (
-    <div className="md:flex justify-between items-center my-10 md:my-16">
-            <h2 className="text-5xl uppercase text-[#5C6874]">Sign up and get exclusive <br /> special deals</h2>
+    <div className="md:flex justify-between px-4 md:px-6 items-center my-10 md:my-16">
+            <h2 className="text-3xl md:text-5xl uppercase text-[#5C6874]">Sign up and get exclusive <br /> special deals</h2>
       <div className="join">
         <input
           type="text"
